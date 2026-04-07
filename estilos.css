@@ -1,4 +1,11 @@
 /* El símbolo # indica que buscamos un ID */
+
+body {
+    background-color: #f1f4f6ff;
+}
+
+
+
 #mainTittle {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: aliceblue;
@@ -8,26 +15,81 @@
     border: 2rem solid #386294ff;
     border-radius: 2rem;
     text-align: center;
+    margin: auto;
+
 }
 
-#Formulario{
-    background-color: #f1f4f8ff;
-    padding-bottom:5rem;
-    padding-top: 5rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    border: 2rem solid #f1f4f8ff;
+.formulario {
+    display: flex;
+    margin-top: 6rem;
+}
+
+.customer {
+    height: 40rem;
+    width: 25rem;
+    margin-left: 35rem;
+    margin-right: 30rem;
+    background: white;
     border-radius: 2rem;
+
+}
+
+.worker {
+    height: 40rem;
+    width: 25rem;
+    margin-right: auto;
+    background: white;
+    border-radius: 2rem;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.imgLogo {
+    width: 100px;
+    height: 100px;
+    margin-left: 9rem;
+    margin-top: 3rem;
+}
+
+.button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    color: aliceblue;
+    background: #386294ff;
+    box-sizing: border-box;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 15rem;
+    margin-bottom: auto;
+    margin-left: 7rem;
+    cursor: pointer;
+}
+
+.textoRegister {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: larger;
+    line-height: 1.5rem;
     text-align: center;
+    margin-top: 8rem;
+    margin-bottom: auto;
+    margin-left: auto;
 }
 
-#workerImageLogo{
-    height: 60px; /* Alto fijo */
-    width: auto;  /* El ancho se ajusta automáticamente */
+.passwordBox{
+    margin-top: 5rem;
 }
 
-#texto{
+.emailBox{
+}
+
+.texto {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     font-size: 200%;
+    line-height: 0.7rem;
 }
