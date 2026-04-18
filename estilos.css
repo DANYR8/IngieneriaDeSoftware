@@ -141,6 +141,39 @@ body {
     /* se eliminaron los margin-top y margin-left fijos */
 }
 
+/* botones de  pagina principal */
+.btn-workwood {
+    background-color: transparent; 
+    color: #c79c7b;
+    border: none;
+    padding: 10px 20px;
+    border: 2px solid #c79c7b;
+}
+
+.btn-workwood:hover {
+    background-color: #c79c7b;
+    color:white;
+}
+
+.btn-workwoodw {
+    background-color: transparent; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border: 2px solid white;
+}
+
+.btn-workwoodw:hover {
+    background-color:white;
+    color:#c79c7b;
+}
+
+
+
+
+
+
+
 /* ===== RESPONSIVIDAD EXTRA ===== */
 @media (max-width: 600px) {
     .customer,

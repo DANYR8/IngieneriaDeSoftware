@@ -4,29 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Mi Proyecto Web</title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
 </head>
 
 <body>
+
     <div class="mainTittle">
         <h1>WorkWood</h1>
     </div>
-    <div class="headerContainer">
-        <p class="headerTextOptions">Inicio</p>
-        <p class="headerTextOptions">Buscar Oficio</p>
-        <p class="headerTextOptions">Mis Solicitudes</p>
-        <p class="headerTextOptions">Perfil Profecional</p>
-        <p class="headerTextOptions">Ayuda</p>
+
+    <div class="headerContainer d-flex justify-content-center gap-3">
+
+        <a class="btn btn-workwood">Inicio</a>
+        <a class="btn btn-workwoodw">Buscar Oficio</a>
+        <a class="btn btn-workwood">Mis Solicitudes</a>
+        <a class="btn btn-workwoodw">Perfil Profesional</a>
+        <a class="btn btn-workwood">Ayuda</a>
+
+        
     </div>
+
     <div class="contenerdorImgFondo">
-        <img class="imgFondo" src="Maquetado\fondo-main-page-plmero.jpg" alt="fondo">
+        <img class="imgFondo" src="Maquetado/fondo-main-page-plmero.jpg" alt="fondo">
     </div>
 
     <div class="recomendados">
-        <button onclick="mostrarInfo()" class="button">Mostar Informacion</button>
+        <button onclick="mostrarInfo()" class="btn btn-primary">
+            Mostrar Información
+        </button>
     </div>
+
     <p id="recomendadosBlocks"></p>
-    <script src="./backend/main.ts"></script>
+
+    <!-- IMPORTANTE: debe ser .js -->
+    <script src="./backend/main.js"></script>
+
 </body>
 
 </html>
